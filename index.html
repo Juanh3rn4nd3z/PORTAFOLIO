@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de desarrollo de software de Juan Hernández. Proyectos web, arquitectura MVC y contenedores Docker.">
+    <title>Juan Hernández | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="#inicio" class="brand">Juan Hernández<span>.</span></a>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#perfil">Perfil</a></li>
+                    <li><a href="#stack">Stack Técnico</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto" class="nav-btn">Contactar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <div class="badge-status">Disponible para proyectos y colaboraciones</div>
+                    <h1>Construyendo software escalable, soy <span>Juan Hernández</span></h1>
+                    <p class="subtitle">
+                        Estudiante de <strong>Ingeniería en Desarrollo de Software</strong> en UNIVO. Enfocado en el diseño de arquitecturas limpias (MVC), desarrollo web con TypeScript y despliegue en contenedores con Docker.
+                    </p>
+                    <div class="cta-group">
+                        <a href="#proyectos" class="btn btn-solid">Explorar Proyectos</a>
+                        <a href="https://github.com/Juanh3rn4nd3z" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                            <i class="fab fa-github"></i>
+                            GitHub (@Juanh3rn4nd3z)
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-code-card">
+                    <div class="window-dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="file-name">developer.ts</span>
+                    </div>
+                    <pre><code><span class="k">interface</span> <span class="t">Developer</span> {
+  nombre: <span class="s">'Juan Hernández'</span>;
+  ubicacion: <span class="s">'San Miguel, SV'</span>;
+  enfoque: [<span class="s">'Web'</span>, <span class="s">'MVC'</span>, <span class="s">'Docker'</span>];
+  aprendizajeContinuo: <span class="b">true</span>;
+}</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="perfil" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="tag">// 01. PERFIL PROFESIONAL</span>
+                    <h2>Más allá del código</h2>
+                </div>
+
+                <div class="profile-layout">
+                    <div class="profile-image">
+                        <img src="perfil.png" alt="Fotografía de Juan Hernández">
+                    </div>
+
+                    <div class="profile-bio">
+                        <p>
+                            Soy estudiante de Ingeniería en Desarrollo de Software en la Universidad de Oriente (UNIVO), en San Miguel. Me apasiona ir más allá de lo que el usuario ve en pantalla: descubrir qué sucede detrás de cada aplicación, cómo se conecta su lógica, cómo se organiza la información y qué procesos hacen posible que un sistema funcione correctamente. Me interesa especialmente el desarrollo web, la arquitectura de software y el mundo de la infraestructura, donde disfruto experimentar con tecnologías como TypeScript, Docker y bases de datos.
+                        </p>
+                        <p>
+                            Fuera del mundo de la programación, disfruto dedicar tiempo a otras cosas que también forman parte de mi vida. Me gusta la fotografía nocturna, salir a jugar fútbol y mantenerme activo. Son actividades que me permiten despejar la mente, conocer nuevas perspectivas y disfrutar de mi tiempo fuera de la tecnología.
+                        </p>
+                    </div>
+
+                    <div class="profile-highlights">
+                        <div class="highlight-box">
+                            <h4>Arquitectura</h4>
+                            <p>Implementación del patrón Modelo-Vista-Controlador para código modular y mantenible.</p>
+                        </div>
+                        <div class="highlight-box">
+                            <h4>Infraestructura</h4>
+                            <p>Entornos reproducibles usando Docker, bases de datos relacionales y balanceo con Nginx.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="section bg-alt">
+            <div class="container">
+                <div class="section-title">
+                    <span class="tag">// 02. HERRAMIENTAS</span>
+                    <h2>Stack Tecnológico</h2>
+                </div>
+
+                <div class="stack-categories">
+                    <div class="stack-group">
+                        <h3>Frontend & Lenguajes</h3>
+                        <div class="pill-list">
+                            <span class="pill">TypeScript</span>
+                            <span class="pill">JavaScript (ES6+)</span>
+                            <span class="pill">React</span>
+                            <span class="pill">HTML5 & CSS3</span>
+                            <span class="pill">Vite</span>
+                        </div>
+                    </div>
+
+                    <div class="stack-group">
+                        <h3>Backend & Datos</h3>
+                        <div class="pill-list">
+                            <span class="pill">Node.js</span>
+                            <span class="pill">Arquitectura MVC</span>
+                            <span class="pill">MySQL / SQL</span>
+                            <span class="pill">LocalStorage API</span>
+                        </div>
+                    </div>
+
+                    <div class="stack-group">
+                        <h3>DevOps & Entorno</h3>
+                        <div class="pill-list">
+                            <span class="pill">Docker</span>
+                            <span class="pill">Nginx</span>
+                            <span class="pill">Git & GitHub</span>
+                            <span class="pill">WSL2 (Ubuntu)</span>
+                            <span class="pill">VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="tag">// 03. PORTAFOLIO</span>
+                    <h2>Proyectos Académicos y Desarrollo</h2>
+                </div>
+
+                <div class="bento-projects">
+                    <article class="bento-card">
+                        <div class="card-top">
+                            <span class="folder-icon">Arquitectura de Software</span>
+                            <span class="index-num">01</span>
+                        </div>
+                        <h3>Catálogo de Libros MVC</h3>
+                        <p>
+                            Sistema web completo para la administración, consulta y filtrado de inventario bibliográfico. Diseñado separando estrictamente la lógica de datos, la interfaz de usuario y el control de eventos mediante el patrón MVC.
+                        </p>
+                        <ul class="tech-tags">
+                            <li>TypeScript</li>
+                            <li>Patrón MVC</li>
+                            <li>HTML5 / CSS3</li>
+                            <li>Persistencia Local</li>
+                        </ul>
+                    </article>
+
+                    <article class="bento-card">
+                        <div class="card-top">
+                            <span class="folder-icon">Infraestructura & Contenedores</span>
+                            <span class="index-num">02</span>
+                        </div>
+                        <h3>Entorno de Base de Datos con Docker</h3>
+                        <p>
+                            Despliegue y orquestación de bases de datos relacionales y servicios web en contenedores aislados. Incluye gestión de volúmenes persistentes, configuración de clústeres y balanceo de carga con Nginx para proyectos colaborativos.
+                        </p>
+                        <ul class="tech-tags">
+                            <li>Docker</li>
+                            <li>Bases de Datos SQL</li>
+                            <li>Nginx</li>
+                            <li>Linux / WSL2</li>
+                        </ul>
+                    </article>
+
+                    <article class="bento-card">
+                        <div class="card-top">
+                            <span class="folder-icon">Productividad Web</span>
+                            <span class="index-num">03</span>
+                        </div>
+                        <h3>Gestor de Tareas (MVC)</h3>
+                        <p>
+                            Aplicación interactiva para el control de flujo de trabajo y actividades. Cuenta con validaciones en tiempo real, filtros de estado dinámicos y almacenamiento persistente en el navegador.
+                        </p>
+                        <ul class="tech-tags">
+                            <li>TypeScript</li>
+                            <li>MVC</li>
+                            <li>LocalStorage</li>
+                            <li>DOM API</li>
+                        </ul>
+                    </article>
+
+                    <article class="bento-card">
+                        <div class="card-top">
+                            <span class="folder-icon">Educación Interactiva</span>
+                            <span class="index-num">04</span>
+                        </div>
+                        <h3>PequeMundo</h3>
+                        <p>
+                            Plataforma educativa interactiva con múltiples mundos de aprendizaje gamificados. Integra síntesis de voz en el navegador para guiar la experiencia del usuario de forma dinámica y accesible.
+                        </p>
+                        <ul class="tech-tags">
+                            <li>React</li>
+                            <li>TypeScript</li>
+                            <li>Vite</li>
+                            <li>Web Speech API</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section contact-section">
+            <div class="container contact-box">
+                <span class="tag">// 04. ¿HABLAMOS?</span>
+                <h2>Conectemos para futuros proyectos</h2>
+                <p>
+                    Siempre estoy dispuesto a colaborar en desarrollos de software, participar en tecnología y arquitectura web.
+                </p>
+                <div class="cta-group center">
+                    <a href="https://github.com/Juanh3rn4nd3z" target="_blank" rel="noopener noreferrer" class="btn btn-solid">
+                        <i class="fab fa-github"></i>
+                        Ver mis repositorios en GitHub
+                    </a>
+                    <a href="mailto:jh377583@gmail.com?subject=Contacto%20desde%20mi%20portafolio&body=Hola%20Juan,%20me%20gustaría%20contactarte." class="btn btn-outline">
+                        <i class="fas fa-envelope"></i>
+                        Enviar un Correo
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© 2026 <strong>Juan Hernández</strong>. San Miguel, El Salvador.</p>
+            <p class="footer-tech">Desplegado con Git, GitHub & Vercel</p>
+        </div>
+    </footer>
+
+</body>
+</html>
